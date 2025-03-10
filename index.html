@@ -14,22 +14,22 @@
     <header class="bg-primary text-white p-3">
         <div class="container d-flex justify-content-between align-items-center">
             <!-- Logo à esquerda -->
-            <a href="#" class="navbar-brand text-white">Bootstrap</a>
+            <a href="#" class="navbar-brand text-white">BOOTSTRAP</a>
 
             <!-- Links de navegação à direita -->
             <nav>
                 <ul class="navbar-nav flex-row">
                     <li class="nav-item m-2">
-                        <a class="nav-link text-white" href="#">Home</a>
+                        <a class="nav-link text-white" href="#carroussel">Home</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link text-white" href="#">Sobre</a>
+                        <a class="nav-link text-white" href="#cards">Serviços</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link text-white" href="#">Serviços</a>
+                        <a class="nav-link text-white" href="#sobre">Sobre</a>
                     </li>
                     <li class="nav-item m-2">
-                        <a class="nav-link text-white" href="#">Contato</a>
+                        <a class="nav-link text-white" href="#forms">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -67,9 +67,9 @@
                     <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Desenvolvimento Web</h5>
+                            <p class="card-text">Portfólios online, ecommerce, agenda digital, sistema de gerenciamento e outras facilidades para a sua vida.</p>
+                            <a href="#" class="btn btn-primary">Solicitar</a>
                         </div>
                     </div>
                 </div>
@@ -77,9 +77,9 @@
                     <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Gerenciamento de projeto</h5>
+                            <p class="card-text">Precisa de uma equipe de desenvolvimento mas não sabe por onde começar? Me contate para iniciarmos.</p>
+                            <a href="#" class="btn btn-primary">Contatar</a>
                         </div>
                     </div>
                 </div>
@@ -87,9 +87,9 @@
                     <div class="card shadow p-3 mb-5 bg-body-tertiary rounded">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <h5 class="card-title">Desenvolvimento mobile</h5>
+                            <p class="card-text">Precisa de um aplicativo? me contate, aqui seus sonhos e vontades se tornam possiveis e viram realidade.</p>
+                            <a href="#" class="btn btn-primary">Solicitar</a>
                         </div>
                     </div>
                 </div>
@@ -97,13 +97,16 @@
         </div>
     </section>
 
-    <section id="image" class="mt-5">
+    <section id="sobre" class="mt-5">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Coluna para o texto -->
                 <div class="col-12 col-md-6">
-                    <h2>Texto à Esquerda</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque rem quibusdam et, earum corporis fugiat asperiores ex minima illo nemo dolorem placeat natus quas ab hic sit quasi numquam temporibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    <h2>Sobre mim</h2>
+                    <p>&nbsp; Sou estudante de Desenvolvimento de Sistemas com 19 anos, apaixonado por tecnologia e em busca da minha primeira oportunidade como Desenvolvedor Júnior. <br>
+                        Atualmente, estou me aprofundando em Javascript, Node.js e MySQL, com foco em me tornar um desenvolvedor full-stack. Sou proativo, motivado e comprometido com meu desenvolvimento contínuo, buscando sempre aplicar as melhores práticas em tudo o que faço. 
+                        Estou pronto para contribuir com minha energia e habilidades em novos projetos e crescer em um ambiente dinâmico.
+                    </p>
                 </div>
                 <!-- Coluna para o quadrado colorido -->
                 <div class="col-12 col-md-6 text-center">
@@ -116,45 +119,47 @@
     <section id="forms" class="container mt-3">
         <form class="row g-3 border border-light-subtle rounded m-2 p-5 shadow">
             <div class="col-md-4">
-                <label for="validationDefault01" class="form-label">First name</label>
+                <label for="validationDefault01" class="form-label">Nome</label>
                 <input type="text" class="form-control" id="validationDefault01" value="Dérick" required>
             </div>
             <div class="col-md-4">
-                <label for="validationDefault02" class="form-label">Last name</label>
+                <label for="validationDefault02" class="form-label">Sobrenome</label>
                 <input type="text" class="form-control" id="validationDefault02" value="Campos" required>
             </div>
             <div class="col-md-4">
-                <label for="validationDefaultUsername" class="form-label">Username</label>
+                <label for="validationDefaultUsername" class="form-label">Usuário</label>
                 <div class="input-group">
                     <span class="input-group-text" id="inputGroupPrepend2">@</span>
                     <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
                 </div>
             </div>
             <div class="col-md-6">
-                <label for="validationDefault03" class="form-label">City</label>
+                <label for="validationDefault03" class="form-label">Cidade</label>
                 <input type="text" class="form-control" id="validationDefault03" required>
             </div>
             <div class="col-md-3">
                 <label for="validationDefault04" class="form-label">State</label>
                 <select class="form-select" id="validationDefault04" required>
-                    <option selected disabled value="">Choose...</option>
-                    <option>...</option>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Desenvolvimento web</option>
+                    <option>Desenvolvimento mobile</option>
+                    <option>Oferta de negócio</option>
                 </select>
             </div>
             <div class="col-md-3">
-                <label for="validationDefault05" class="form-label">Zip</label>
+                <label for="validationDefault05" class="form-label">CEP</label>
                 <input type="text" class="form-control" id="validationDefault05" required>
             </div>
             <div class="col-12">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
                     <label class="form-check-label" for="invalidCheck2">
-                        Agree to terms and conditions
+                        Aceito os termos e condições
                     </label>
                 </div>
             </div>
             <div class="col-12">
-                <button class="btn btn-primary" type="submit">Submit form</button>
+                <button class="btn btn-primary" type="submit">Enviar</button>
             </div>
         </form>
     </section>
@@ -163,30 +168,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h5>Sobre</h5>
-                    <p>Informações sobre o site ou empresa.</p>
+                    <h5>Principais habilidades</h5>
+                    <p>Front-End: HTML, CSS, Javascript, React, Figma
+                        Back-End: Node.js, Express.js, MongoDB, MySQL Workbench
+                        Outras habilidades: SEO, Git & GitHub, Deployment</p>
                 </div>
                 <div class="col-md-4">
-                    <h5>Links</h5>
+                    <h5>Navegar pelo site</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-white">Home</a></li>
-                        <li><a href="#" class="text-white">Sobre</a></li>
-                        <li><a href="#" class="text-white">Serviços</a></li>
-                        <li><a href="#" class="text-white">Contato</a></li>
+                        <li><a href="#carrossel" class="text-white">Home</a></li>
+                        <li><a href="#cards" class="text-white">Serviços</a></li>
+                        <li><a href="#sobre" class="text-white">Sobre</a></li>
+                        <li><a href="#forms" class="text-white">Contato</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h5>Contato</h5>
                     <ul class="list-unstyled">
-                        <li><span>email@example.com</span></li>
-                        <li><span>+55 (11) 1234-5678</span></li>
-                        <li><span>Rua Exemplo, 123 - Cidade, Estado</span></li>
+                        <li><span>derickcampossantos1@gmail.com</span></li>
+                        <li><span>+55 (11) 98626-1007</span></li>
+                        <li><span>São Paulo - Brasil</span></li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="text-center py-2">
-            <p>&copy; 2025 MeuSite. Todos os direitos reservados.</p>
+            <p>&copy; 2025 Derick. Todos os direitos reservados.</p>
         </div>
     </footer>
 
